@@ -29,7 +29,7 @@ lines(t, data$Sub_metering_3, type="l",col="blue")
 axis.POSIXct(1, t, format="%a")
 
 legend("topright", c("Sub_metering_1","Sub_metering_2", "Sub_metering_1"), 
-       lty=c(1,1), lwd=c(2.5,2.5), col=c("black", "blue","red")) 
+       lty=c(1,1), lwd=c(2.5,2.5), col=c("black", "blue","red"), bty = "n") 
 
 #forth plot
 plot(t, data$Global_reactive_power, type="l", ylab="Global_reactive_power", xlab="daytime", xaxt="n")
