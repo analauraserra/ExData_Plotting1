@@ -14,7 +14,7 @@ Sys.setlocale("LC_TIME", "C")
 png(filename="plot4.png", width = 480, height = 480, , units = "px")
 par(mfrow=c(2,2))
 #first plot
-plot(t, data$Global_active_power, type="l", xlab=" ", ylab="Global Active Power (kilowatts)", xaxt="n")
+plot(t, data$Global_active_power, type="l", xlab=" ", ylab="Global Active Power", xaxt="n")
 axis.POSIXct(1, t, format="%a")
 
 #second plot
